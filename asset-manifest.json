@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/orchard-front-end-test/static/css/main.7c944da5.css",
+    "main.js": "/orchard-front-end-test/static/js/main.4428bf98.js",
+    "static/js/453.67eb58b9.chunk.js": "/orchard-front-end-test/static/js/453.67eb58b9.chunk.js",
+    "index.html": "/orchard-front-end-test/index.html",
+    "main.7c944da5.css.map": "/orchard-front-end-test/static/css/main.7c944da5.css.map",
+    "main.4428bf98.js.map": "/orchard-front-end-test/static/js/main.4428bf98.js.map",
+    "453.67eb58b9.chunk.js.map": "/orchard-front-end-test/static/js/453.67eb58b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c944da5.css",
+    "static/js/main.4428bf98.js"
+  ]
+}
