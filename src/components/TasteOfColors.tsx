@@ -22,9 +22,11 @@ const items: TasteOfColorItemProps[] = [
 const TasteOfColors = () => {
     return <div className={style['taste-of-colors']}>
         <Title>Taste the Colours</Title>
-        {
-            items.map(({ imageSrc, title, description }) => <TasteOfColorItem imageSrc={imageSrc} title={title} description={description} />)
-        }
+        <div className={style['taste-of-colors-items']}>
+            {
+                items.map(({ imageSrc, title, description }) => <TasteOfColorItem imageSrc={imageSrc} title={title} description={description} />)
+            }
+        </div>
     </div>
 }
 

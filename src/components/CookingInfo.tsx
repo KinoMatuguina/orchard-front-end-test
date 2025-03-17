@@ -1,9 +1,10 @@
 import CookingInfoContent from './CookingInfoContent';
 import CookingInfoGallery from './CookingInfoGallery';
+import style from './CookingInfo.module.scss';
 
 const CookingInfo = () => {
 	return (
-		<div className="cooking-info">
+		<div className={style["cooking-info"]}>
 			<CookingInfoGallery />
 			<CookingInfoContent 
                 title={'WHAT DOES COOKING MEAN?'} 

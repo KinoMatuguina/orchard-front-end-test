@@ -1,3 +1,14 @@
 .taste-of-colors {
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .taste-of-colors-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.87500rem;
+    }
 }
