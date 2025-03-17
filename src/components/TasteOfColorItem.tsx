@@ -8,8 +8,10 @@ export interface TasteOfColorItemProps {
 const TasteOfColorItem = ({imageSrc, title, description}: TasteOfColorItemProps) => {
     return <div className={style['taste-of-color-item']}>
         <img src={imageSrc} loading="lazy" alt={`taste of color ${title?.toLocaleLowerCase}`} />
-        <p className="taste-of-color-item--title">{title}</p>
-        <p className="taste-of-color-item--description">{description}</p>
+        <div className={style['taste-of-color-item-content']}>
+            <p className={style["taste-of-color-item-content--title"]}>{title}</p>
+            <p className={style["taste-of-color-item-content--description"]}>{description}</p>
+        </div>
     </div>
 }
 

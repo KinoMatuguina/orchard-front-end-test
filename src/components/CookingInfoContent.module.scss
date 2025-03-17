@@ -1,5 +1,24 @@
 .cooking-info-content {
-    p {
-        color: var(--white);
+    .cooking-info-content--description {
+        p {
+            color: var(--white);
+            font-size: 1.3125rem;  
+        }
+
+        .content-description {
+            margin-bottom: 1.87500rem;
+            font-weight: 300;
+        }
+
+        .sub-content-title {
+            font-size: 0.9375rem;
+            color: var(--crimson-red);
+            font-weight: 700;
+            margin-bottom: 0.625rem;
+        }
+
+        .sub-content-description {
+            font-weight: 700;
+        }
     }
 }

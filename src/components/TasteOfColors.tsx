@@ -1,5 +1,6 @@
 import TasteOfColorItem, { TasteOfColorItemProps } from "./TasteOfColorItem"
 import style from './TasteOfColors.module.scss'
+import Title from "./Title"
 
 const items: TasteOfColorItemProps[] = [
     {
@@ -20,6 +21,7 @@ const items: TasteOfColorItemProps[] = [
 ]
 const TasteOfColors = () => {
     return <div className={style['taste-of-colors']}>
+        <Title>Taste the Colours</Title>
         {
             items.map(({ imageSrc, title, description }) => <TasteOfColorItem imageSrc={imageSrc} title={title} description={description} />)
         }

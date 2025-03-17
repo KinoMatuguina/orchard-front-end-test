@@ -1,9 +1,23 @@
 .taste-of-color-item {
-    img {
-        width: 100%;
-    }
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 375px;
     p {
         color: var(--white)
+    }
+
+    .taste-of-color-item-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        margin-top: 1.87500rem;
+
+        &--title {
+            font-size: 1.3125rem;
+            font-weight: 700;
+        }
     }
 }
