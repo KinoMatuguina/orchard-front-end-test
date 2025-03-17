@@ -1,6 +1,10 @@
 
+@use './breakpoints.scss' as bp;
 .cooking-container {
     max-width: 1166px;
     margin: 0 auto;
-    padding: 7.5rem 0.625rem;
+    padding: 3.75rem 0.625rem;
+    @media screen and (min-width: bp.$breakpoint-lg) {
+        padding: 7.5rem 0.625rem;
+    }
 }
