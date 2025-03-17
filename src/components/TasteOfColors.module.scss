@@ -1,3 +1,5 @@
+@use '../breakpoints.scss' as bp;
+
 .taste-of-colors {
     display: flex;
     flex-direction: column;
@@ -10,5 +12,14 @@
         justify-content: center;
         align-items: center;
         gap: 1.87500rem;
+        @media screen and (min-width: bp.$breakpoint-md) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+
+        @media screen and (min-width: bp.$breakpoint-lg) {
+            gap: 0.625rem;
+        }
     }
 }

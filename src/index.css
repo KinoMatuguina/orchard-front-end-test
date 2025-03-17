@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--black);
+  line-height: 1.43;
   font-weight: 300;
 }
 
@@ -30,12 +31,6 @@ code {
 * {
   margin: 0;
 }
-body {
-  /* 3. Add accessible line-height */
-  line-height: 1.5;
-  /* 4. Improve text rendering */
-  -webkit-font-smoothing: antialiased;
-}
 /* 5. Improve media defaults */
 img, picture, video, canvas, svg {
   display: block;
@@ -50,9 +45,7 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 /* 8. Improve line wrapping */
-p {
-  text-wrap: pretty;
-}
+
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }

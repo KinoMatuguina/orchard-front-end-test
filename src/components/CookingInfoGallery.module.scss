@@ -17,4 +17,11 @@
         flex-direction: row;
         justify-content: center;
     }
+
+    @media screen and (min-width: bp.$breakpoint-lg) {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+    }
 }

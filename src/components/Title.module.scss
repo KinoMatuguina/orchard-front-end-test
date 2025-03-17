@@ -1,3 +1,5 @@
+@use '../breakpoints.scss' as bp;
+
 .title {
     color: var(--white);
     font-size: 1.875rem;
@@ -5,4 +7,10 @@
     border-bottom: 1px solid var(--white);
     margin: 0 0 1.875rem;
     text-align: center;
+    line-height: 1.1;
+    letter-spacing: 1.5px;
+
+    @media screen and (min-width: bp.$breakpoint-lg) {
+        text-align: left;
+    }
 }

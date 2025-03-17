@@ -11,6 +11,10 @@
         max-width: 754px;
     }
 
+    @media screen and (min-width: bp.$breakpoint-lg) {
+        max-width: 362px;
+    }
+
     .cooking-info-content--description {
         p {
             color: var(--white);
@@ -20,6 +24,13 @@
         .content-description {
             margin: 0 0 1.87500rem;
             font-weight: 300;
+            @media screen and (min-width: bp.$breakpoint-lg) {
+                display: -webkit-box;
+                -webkit-line-clamp: 11;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                width: 362px;
+            }
         }
 
         .sub-content-title {
