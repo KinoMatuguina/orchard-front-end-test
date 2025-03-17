@@ -19,12 +19,13 @@ const items: TasteOfColorItemProps[] = [
         description: 'White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat.'
     }
 ]
+
 const TasteOfColors = () => {
     return <div className={style['taste-of-colors']}>
         <Title>Taste the Colours</Title>
         <div className={style['taste-of-colors-items']}>
             {
-                items.map(({ imageSrc, title, description }) => <TasteOfColorItem imageSrc={imageSrc} title={title} description={description} />)
+                items.map(({ imageSrc, title, description }, index) => <TasteOfColorItem key={`taste-color-item-${index}`} imageSrc={imageSrc} title={title} description={description} />)
             }
         </div>
     </div>
